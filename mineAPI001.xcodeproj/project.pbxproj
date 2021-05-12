@@ -15,6 +15,9 @@
 		740A48B9264B927A0004F6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740A48B7264B927A0004F6C5 /* LaunchScreen.storyboard */; };
 		740A48C4264B927A0004F6C5 /* mineAPI001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740A48C3264B927A0004F6C5 /* mineAPI001Tests.swift */; };
 		740A48CF264B927A0004F6C5 /* mineAPI001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740A48CE264B927A0004F6C5 /* mineAPI001UITests.swift */; };
+		740A48F2264B95320004F6C5 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740A48F1264B95320004F6C5 /* Article.swift */; };
+		74ABC863264B9F480094ABCD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ABC861264B9F480094ABCD /* CustomCell.swift */; };
+		74ABC864264B9F480094ABCD /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74ABC862264B9F480094ABCD /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		740A48CA264B927A0004F6C5 /* mineAPI001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineAPI001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740A48CE264B927A0004F6C5 /* mineAPI001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mineAPI001UITests.swift; sourceTree = "<group>"; };
 		740A48D0264B927A0004F6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740A48F1264B95320004F6C5 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		74ABC861264B9F480094ABCD /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		74ABC862264B9F480094ABCD /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				740A48B5264B927A0004F6C5 /* Assets.xcassets */,
 				740A48B7264B927A0004F6C5 /* LaunchScreen.storyboard */,
 				740A48BA264B927A0004F6C5 /* Info.plist */,
+				740A48F1264B95320004F6C5 /* Article.swift */,
+				74ABC861264B9F480094ABCD /* CustomCell.swift */,
+				74ABC862264B9F480094ABCD /* CustomCell.xib */,
 			);
 			path = mineAPI001;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			files = (
 				740A48B9264B927A0004F6C5 /* LaunchScreen.storyboard in Resources */,
 				740A48B6264B927A0004F6C5 /* Assets.xcassets in Resources */,
+				74ABC864264B9F480094ABCD /* CustomCell.xib in Resources */,
 				740A48B4264B927A0004F6C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +270,9 @@
 			files = (
 				740A48B1264B927A0004F6C5 /* ViewController.swift in Sources */,
 				740A48AD264B927A0004F6C5 /* AppDelegate.swift in Sources */,
+				74ABC863264B9F480094ABCD /* CustomCell.swift in Sources */,
 				740A48AF264B927A0004F6C5 /* SceneDelegate.swift in Sources */,
+				740A48F2264B95320004F6C5 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
 				INFOPLIST_FILE = mineAPI001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
 				INFOPLIST_FILE = mineAPI001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
